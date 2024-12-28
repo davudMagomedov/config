@@ -1,0 +1,30 @@
+require("gitsigns").setup {
+    -- signs = {
+    --     add          = { text = '┃' },
+    --     change       = { text = '┃' },
+    --     delete       = { text = '┃' },
+    --     topdelete    = { text = '‾' },
+    --     changedelete = { text = '┃' },
+    --     untracked    = { text = '┆' },
+    -- },
+    signs = {
+        add          = { text = '' },
+        change       = { text = '' },
+        delete       = { text = '' },
+        topdelete    = { text = '' },
+        changedelete = { text = '' },
+        untracked    = { text = '' },
+    },
+    signs_staged = {
+        add          = { text = '' },
+        change       = { text = '' },
+        delete       = { text = '' },
+        topdelete    = { text = '' },
+        changedelete = { text = '' },
+        untracked    = { text = '' },
+    },
+    signcolumn = false,
+    signs_staged_enable = false,
+    numhl = true,
+    attach_to_untracked = true,
+}

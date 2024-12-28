@@ -1,0 +1,9 @@
+1. [x] bottomline
+2. block hider
+3. [x] minimap
+4. git
+5. [x] start page
+6. snippets
+7. [x] 'trouble.nvim' - diagnostics list
+8. auto pairs
+9. surrounder
